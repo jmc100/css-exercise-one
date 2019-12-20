@@ -1,36 +1,45 @@
-body
+/* adjust the font size in one place */
+body {
   font-size: 14px;
 }
 
+/* adjust the style of the nav bar */
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
-
+/* adjust the style of all div elements */
 section {
   margin: 0 auto;
   width: 60%;
 }
 
+/* adjust the style of all <h1> elements */
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
 
+/* adjust the padding and text alignment of the "example" class and the
+ <h3> elements */
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
 
+/* adjust the font size of <h3> elements */
 h3 {
   font-size: 1.3em;
 }
 
+/* adjust the style of the "element" class */
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0px;
   width: 100%;
+}
