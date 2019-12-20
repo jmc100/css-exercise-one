@@ -43,3 +43,18 @@ h3 {
   margin: 10px 0px;
   width: 100%;
 }
+
+/* change background color to orange */
+.colorChange_1{
+  background-color: #F07B0E;
+}
+
+/* change background color to gold */
+.colorChange_2{
+  background-color: #F2CF05;
+}
+
+/* change background color to pink */
+.colorChange_3{
+  background-color: #FC4469;
+}
