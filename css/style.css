@@ -8,13 +8,15 @@ nav {
   background-color: yellow;
   height: 100px;
   margin-top: -10px;
-  position: fixed;
+  display: fixed;
   width: 100%;
+  top: 0;
 }
 
 /* adjust the style of all div elements */
 section {
   margin: 0 auto;
+  padding-top: 5px;
   width: 60%;
 }
 
